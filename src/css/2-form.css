@@ -1,0 +1,76 @@
+.feedback-form {
+  width: 500px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.form-input,
+.form-textarea {
+  width: 100%;
+  padding: 12px 16px;
+  margin-top: 8px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form-textarea {
+  resize: vertical;
+  min-height: 120px;
+  max-height: 300px;
+}
+/* Hover */
+.form-input:hover,
+.form-textarea:hover {
+  border-color: #000;
+}
+
+/* Focus (Active) */
+.form-input:focus,
+.form-textarea:focus {
+  border-color: #808080;
+  box-shadow: 0 0 0 3px rgba(49, 52, 54, 0.2);
+  outline: none;
+}
+
+.form-button {
+  display: inline-block;
+  padding: 12px 24px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background-color: #4e75ff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+/* Hover */
+.form-button:hover {
+  background-color: #6c8cff;
+}
+
+/* Active */
+.form-button:active {
+  background-color: #004494;
+  transform: scale(0.97);
+}

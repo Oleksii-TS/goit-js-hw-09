@@ -1,0 +1,31 @@
+.page-list {
+  list-style: none;
+  padding: 0;
+  margin: 32px auto;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.page-link {
+  display: block;
+  padding: 10px 16px;
+  background-color: #4e9af1;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 500;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.page-link:hover {
+  background-color: #357edd;
+  transform: translateX(4px);
+}
+
+.page-link:active {
+  background-color: #357edd;
+  transform: translateX(2px);
+}
